@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5859375, shrink-to-fit=no">
+    <link rel="stylesheet" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/index2.css">
+    <script defer src="./fontawesome/js/fontawesome-all.min.js"></script>
+
+    <title>投资圈</title>
+</head>
+<body>
+<div class="s-top">
+    <img src="./img/bb1.png">
+    <div class="b1">
+        <img src="./img/bb2.png">
+    </div>
+</div>
+<div class="s-content">
+    <img src="./img/bb3.png">
+</div>
+<div class="s-footer">
+    <img src="./img/bb4.png">
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="exampleModalLongTitle">长按微信号复制</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" style="text-align: center;font-size: 26px;">
+                <br>微信号：<span style="color: #FF0000;font-weight: bold;">MB168166</span>
+                <br><br>（长按微信号然后复制）<br><br>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!--js调用-->
+<script src="./jquery/jquery-3.3.1.min.js"></script>
+<script src="./bootstrap/js/popper.min.js"></script>
+<script src="./bootstrap/js/bootstrap.min.js"></script>
+<script src="./layer/layer.js"></script>
+<!--监测代码start-->
+<script id="kw_tongji" src="http://tj.shangdee.com/kw.js?sign=d6396e998eb50d46970e7b04340747f1" charset="UTF-8"></script>
+<!--监测代码end-->
+<script>
+    $(".b1").click(function () {
+        $('#exampleModalCenter').modal('toggle')
+    });
+    $(".s-footer").click(function () {
+        $('#exampleModalCenter').modal('toggle')
+    });
+</script>
+</body>
+</html>

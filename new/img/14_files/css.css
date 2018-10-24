@@ -1,0 +1,99 @@
+html { height: 100%; background: #fff; -webkit-text-size-adjust: 100%; -ms-text-size-adjust: 100%; overflow-x: hidden !important; }
+a, body, dd, dl, dt, figure, h1, h2, h3, h4, h5, h6, hr, img, input, li, ol, p, strong, table, textarea, ul { margin: 0; padding: 0; }
+body { font-size: .26rem; line-height: .36rem; color: #cfcfcf; font-family: 'Microsoft Yahei'; overflow-x: hidden !important; min-height: 100%; 
+	position: relative; margin: 0 auto; overflow-y: scroll; -webkit-overflow-scrolling: touch; max-width: 750px; 
+	background: #9224f3 url(bg.png) no-repeat center top; background-size: 100%; }
+::-webkit-scrollbar { width: 0; height: 0; }
+* { -webkit-tap-highlight-color: transparent; }
+html { height: 100%; }
+article, figure, footer, header, menu, nav, object, section, time { display: block; }
+li, ol, ul { list-style: none; }
+a { color: #fff; text-decoration: none; }
+a:active, a:focus, a:hover, a:visited { color: #fff; text-decoration: none; }
+img { border: none; vertical-align: middle; max-width: 100%; font-size: 0; }
+table { border-collapse: collapse; border-spacing: 0; }
+input { -webkit-appearance: none; }
+form { margin: 0; padding: 0; }
+hr { width: 100%; height: 1px; border: 0; border-bottom: 1px solid #dedede; }
+a, input { outline: 0; cursor: pointer; font-family: 'microsoft yahei'; }
+input[type=text], input[type=password] { text-indent: .15rem; }
+input::-webkit-input-placeholder { color: #ccc; }
+button, input[type=button] { outline: 0; }
+em, i { font-style: normal; }
+.clearfix:after { content: "\0020"; display: block; height: 0; clear: both; visibility: hidden; }
+.clearfix { zoom: 1; }
+.fl { float: left; }
+.fr { float: right; }
+
+.blue { color: #4461c8; }
+
+.main { padding-top: 7.23rem; }
+.main .div01 { text-align: center; color: #fff; font-size: .3rem; }
+.main .div01 .p01 { font-size: .36rem; font-weight: bold; line-height: .87rem; width: 100%; height: .87rem; 
+	background: url(num.png) no-repeat 2.5rem top; background-size: 2.81rem; }
+.main .div01 .p01 span { font-size: .8rem; letter-spacing: .08rem; font-weight: 500; }
+.main .div01 .p02 { line-height: .4rem; }
+.main .div01 .p03 { color: #ffe65b; line-height: .66rem; }
+.main .div01 .p03 span { font-size: .48rem; font-weight: bold; color: #d6151b; }
+.main .mobile_input { display: block; margin: .2rem auto 0; width: 6.9rem; height: 1.11rem; background: #fff; border-radius: 1.11rem; text-align: center; border: none; font-size: .4rem; box-sizing: border-box; color: #ccc; }
+.main .box_error { display: block; color: red; margin: .15rem 0 -.15rem .6rem; }
+.main .btn { display: block; margin: .3rem auto 0; width: 7.08rem; height: 1.29rem; line-height: 1.1rem; text-align: center; 
+	background: url(btn.png) no-repeat center top; 
+	background-size: 100%; font-size: .5rem; font-weight: bold; color: #fff; border: none; padding-bottom: .18rem; box-sizing: border-box; }
+.main .div02, 
+.main .div03 { width: 6.9rem; padding-top: .47rem; box-sizing: border-box; }
+.main .div02 .tit, 
+.main .div03 .tit { font-size: .4rem; color: #da311e; text-align: center; position: relative; }
+.main .div02 .tit .bg_i, 
+.main .div03 .tit .bg_i { width: .52rem; height: .3rem; position: absolute; top: .05rem; }
+.main .div02 .tit .left, 
+.main .div03 .tit .left { left: 1.85rem; background-position: 0 0; }
+.main .div02 .tit .right, 
+.main .div03 .tit .right { right: 1.85rem; background-position: -.68rem 0; }
+.main .div02 { margin: .3rem auto 0; height: 6.5rem; 
+	background: url(kuang.png) no-repeat center top; background-size: 100%; }
+.main .div02 .tit { margin-bottom: .6rem; }
+.main .div02 .step_tit { font-size: .26rem; line-height: .26rem; color: #da311e; }
+.main .div02 .step_tit span { display: inline-block; width: 2rem; text-align: center; }
+.main .div02 .step_tit span.w220 { width: 2.2rem; }
+.main .div02 .step_tit span.w290 { width: 2.9rem; }
+.main .div02 .step_tit.ml30 { margin-left: .3rem; }
+.main .div02 .step_tit.ml100 { margin-left: 1rem; }
+.main .div02 .step { width: 6.11rem; margin: 0 auto; display: block; }
+.main .div03 { margin: .5rem auto 0; height: 5.3rem; 
+	background: url(kuang2.png) no-repeat center top; background-size: 100%; }
+.main .div03 .rule { font-size: .24rem; line-height: .4rem; color: #999999; margin: .3rem .3rem 0; }
+.main .div03 .point { font-size: .2rem; color: #e1e1e1; text-align: right; margin: .3rem .3rem 0 0; }
+
+.hint { text-align: center; font-size: .24rem; color: #fff; line-height: .38rem; padding: .3rem; }
+
+@keyframes pulse { 
+	0% { transform: scaleX(1); }
+	50% { transform: scale3d(1.05, 1.05, 1.05); }
+	to { transform: scaleX(1); }
+}
+@-webkit-keyframes pulse { 
+	0% { transform: scaleX(1); }
+	50% { transform: scale3d(1.05, 1.05, 1.05); }
+	to { transform: scaleX(1); }
+}
+@-moz-keyframes pulse { 
+	0% { transform: scaleX(1); }
+	50% { transform: scale3d(1.05, 1.05, 1.05); }
+	to { transform: scaleX(1); }
+}
+@-ms-keyframes pulse { 
+	0% { transform: scaleX(1); }
+	50% { transform: scale3d(1.05, 1.05, 1.05); }
+	to { transform: scaleX(1); }
+}
+@-o-keyframes pulse { 
+	0% { transform: scaleX(1); }
+	50% { transform: scale3d(1.05, 1.05, 1.05); }
+	to { transform: scaleX(1); }
+}
+
+.btn { 
+	animation: pulse 1s both infinite;
+	-webkit-animation: pulse 1s both infinite;
+}

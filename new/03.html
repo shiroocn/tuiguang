@@ -1,0 +1,181 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta name="Robots" content="All">
+    <meta name="HandheldFriendly" content="true">
+    <meta name="MobileOptimized" content="width">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta id="viewport" content="target-densitydpi=device-dpi,user-scalable=no,initial-scale=0.5859375" name="viewport">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta content="black" name="apple-mobile-web-app-status-bar-style">
+    <meta content="telephone=no" name="format-detection">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>投资达人</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/t.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+    <script src="//cdn.aiclicash.com/trace/trace.js"></script>
+</head>
+<body>
+<div class="home">
+    <div class="banner">
+        <img src="img/banner1.png">
+    </div>
+    <div class="add-wx">点击按钮，立即免费领取</div>
+    <div class="weixin1">
+        <div class="but">
+            <a class="qqlink" target="_blank" href="javascript:void(0)">点击领取</a>              </div>
+    </div>
+    <div><!--长按上方按钮复制微信号后前往微信添加好友--></div>
+    <div class="nuo clearfix">
+        <div class="nuo_dun">
+            <img src="img/nuo.jpg">
+        </div>
+        <div class="fr">
+            <h3 class="blue">郑重承诺</h3>
+            <p>0门槛，不收费，不喜欢随时退出。<br>
+                投资战绩绝对真实可查。</p></div>
+    </div>
+    <div class="icon_line">
+        <div class="box clearfix">
+            <div class="icon">
+                <img src="img/icon_01.jpg" width="180" height="170">
+                <h3>当天热点<br/>实时公布</h3>
+            </div>
+            <div class="icon">
+                <img src="img/icon_02.jpg" width="180" height="170">
+                <h3>盘前分析<br/>绝佳买卖点</h3>
+            </div>
+            <div class="icon">
+                <img src="img/icon_03.jpg" width="180" height="170">
+                <h3>投资高手<br/>介绍实操策略</h3>
+            </div>
+        </div>
+    </div>
+    <div class="ls-top"></div>
+    <div class="ls-table">
+        <img src="img/gu1.png" width="100%" height="100%">
+    </div>
+    <div class="s-footer">
+        <div class="add-wx" style="color: #ffffff;">点击按钮，立即免费领取</div>
+        <div class="weixin1">
+            <div class="but">
+                <a class="qqlink" target="_blank" href="javascript:void(0)">点击领取</a>              </div>
+        </div>
+        <div style="color: #ffffff;"><!--长按上方按钮复制微信号后前往微信添加好友--></div>
+        <div class="bq">
+            版权所有© 安徽大时代证券投资咨询有限公司 保留一切权利
+        </div>
+    </div>
+    <div class="popup clearfix">
+        <div class="popup-close">X</div>
+        <div class="content">
+            <div class="top">‭13392531176‬</div>
+            <div class="bottom">
+                成功复制后，<a href="weixin://" style="color: red;">点此进入WX</a>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+<script type="text/javascript">
+    (function($) {
+        $(function() {
+
+            $('body').on('click', '.qqlink', function(){
+                $('.popup').addClass('active');
+                return false;
+
+            });
+
+            $('body').on('click', '.popup-close', function(){
+                $('.popup').removeClass('active');
+                return false;
+            });
+
+        });
+    })(jQuery);
+</script>
+
+<!--<script typet="text/javascript" src="http://wxtj01.kaiguangge.com/jquery.js"></script>
+<script>
+
+    var timeout = undefined;
+    var x = 0;
+    var y = 0;
+    var state = 0;
+    var lastTime = null;
+    var nowTime = null;
+
+    var h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+    // $(function () {
+
+
+
+
+
+    $(".go").on("touchstart", function (event) {
+        lastTime = new Date().getTime();
+
+        clearTimeout(timeout);
+        state = 0;
+        timeout = setTimeout(function () {
+            state = 1;
+
+            go(event.currentTarget.innerText);
+
+        }, 500);
+
+    });
+
+
+    $(".go").on("touchend", function (event) {
+        event.preventDefault();//
+        clearTimeout(timeout);
+        state = 0;
+        nowTime = new Date().getTime();
+        var timeLength = nowTime - lastTime;
+        if (timeLength < 1000) {
+            //$("#loadLayer").show();
+            //window.history.go(-1);
+            //alert("ffff");
+        }
+    });
+
+
+
+    //  });
+
+
+    function go(v) {
+        var url = window.location.href;
+        var burl1=document.referrer;
+        //alert(v);
+        $.get("http://wxtj01.kaiguangge.com/t.php", { u: url, va: v,burl:burl1 });
+    }
+</script>-->
+
+<script>
+    window._iclicash = window._iclicash || [];
+    var bt19 = document.getElementById('btnId1');
+    var bt20 = document.getElementById('btnId2');
+    window._iclicash.push([bt19, 'click', 'active3', 'op']);//op根据业务来备注，可任意取名
+    window._iclicash.push([bt20, 'click', 'active3', 'op']);
+</script>
+
+</body>
+</html>

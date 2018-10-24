@@ -1,0 +1,758 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name="viewport" content="width=1000, user-scalable=no, target-densitydpi=device-dp">
+    <title>大数据_股市荐股工具</title>
+    <!-- Bootstrap -->
+    <link href="./bootstrap-3.3.7-dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="./css/12.css" rel="stylesheet">
+    <style type="text/css">
+        .weima{display:block;width:220px;height:220px;margin:10px auto 0;}
+        .weima_text1{text-align:center;padding:20px 0;font-size: 20px;}
+        .Layzer .qltca .qltcc .weima_text1 span{color: red;font-size: 23px;font-weight: 800;display: inline;}
+    </style>
+</head>
+<body>
+
+<div class="zgimg">
+    <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/1.png">
+    <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/2.png">
+    <em></em>
+    <i></i>
+    <div class="row1"></div>
+    <div class="row2"></div>
+    <h3>
+        <span id="gptext"></span>是买是卖？立即测算！</h3>
+</div>
+<div class="onlineBlock">
+    <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/icon.png"> 累计在线诊股
+    <span id="num">5711</span>次，成功率高达
+    <span>92.26%</span>
+</div>
+<div class="nphoto">
+    <form name="nocode_ran_form">
+        <!-- <input class="Inp" type="text" placeholder="输入您的手机号码"  name="nocode_ran_tel" onpaste="return false;" maxlength="11" onkeyup="value=value.replace(/[^\d]/g,'')" onbeforepaste="clipboardData.setData('text',clipboardData.getData('text').replace(/[^\d]/g,''))"> -->
+        <a class="btnBg" id="btn2">领取
+            <span class="gpname">平安银行</span>测评结果</a>
+        <p>(每个号码限领一次)</p>
+    </form>
+</div>
+<div class="zgc1">
+    <p>股票是涨还是跌？如何躲避跌停？疯长后何时卖出？去留犹豫不定？
+        <i>立即诊断股票去留！</i>
+    </p>
+    <h4>
+        <span>结合6个维度深度分析，增加诊股系统精准度！</span>
+    </h4>
+    <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/zg_img2.jpg">
+</div>
+<div class="zgc2">
+    <div class="zgc2c">
+        <em>免费诊股</em> | 已有
+        <b>5402</b> 人诊股
+        <i>成功率高达
+            <em>92.26%</em>
+        </i>
+    </div>
+    <p>个股是涨还是跌，是买还是卖？一键免费诊股，深度挖掘个股背后的玄机！</p>
+</div>
+<div class="tableBg">
+    <div class="tableCon">
+        <table class="sharesList" style="top: -93.5106px;">
+            <tbody>
+            <tr>
+                <td class="tdFrist">002915</td>
+                <td class="tdFrist">中欣氟材</td>
+                <td class="tdLast">
+                    <span>昨日建议：主力短期强势，考虑买入</span>
+                </td>
+                <td class="red">今日涨幅：10.0%</td>
+            </tr>
+            <tr>
+                <td class="tdFrist">000759</td>
+                <td class="tdFrist">中百集团</td>
+                <td class="tdLast">
+                    <span>昨日建议：强势上攻，寻机低吸</span>
+                </td>
+                <td class="red">今日涨幅：10.0%</td>
+            </tr>
+            <tr>
+                <td class="tdFrist">002903</td>
+                <td class="tdFrist">宇环数控</td>
+                <td class="tdLast">
+                    <span>昨日建议：光头大阳线，考虑介入</span>
+                </td>
+                <td class="red">今日涨幅：5.6%</td>
+            </tr>
+            <tr>
+                <td class="tdFrist">600161</td>
+                <td class="tdFrist">天坛生物</td>
+                <td class="tdLast">
+                    <span>昨日建议：中期方向不明，暂时观望</span>
+                </td>
+                <td class="green">今日涨幅：-6.6%</td>
+            </tr>
+            <tr>
+                <td class="tdFrist">002759</td>
+                <td class="tdFrist">天际股份</td>
+                <td class="tdLast">
+                    <span>昨日建议：中期方向不明，暂时观望</span>
+                </td>
+                <td class="green">今日涨幅：-5.8%</td>
+            </tr>
+            <tr>
+                <td class="tdFrist">000789</td>
+                <td class="tdFrist">万年青</td>
+                <td class="tdLast">
+                    <span>昨日建议：可高抛低吸，摊低成本</span>
+                </td>
+                <td class="green">今日涨幅：-5.5%</td>
+            </tr>
+            <tr>
+                <td class="tdFrist">002915</td>
+                <td class="tdFrist">中欣氟材</td>
+                <td class="tdLast">
+                    <span>昨日建议：主力短期强势，考虑买入</span>
+                </td>
+                <td class="red">今日涨幅：10.0%</td>
+            </tr>
+            <tr>
+                <td class="tdFrist">000759</td>
+                <td class="tdFrist">中百集团</td>
+                <td class="tdLast">
+                    <span>昨日建议：强势上攻，寻机低吸</span>
+                </td>
+                <td class="red">今日涨幅：10.0%</td>
+            </tr>
+            <tr>
+                <td class="tdFrist">002903</td>
+                <td class="tdFrist">宇环数控</td>
+                <td class="tdLast">
+                    <span>昨日建议：光头大阳线，考虑介入</span>
+                </td>
+                <td class="red">今日涨幅：5.6%</td>
+            </tr>
+            <tr>
+                <td class="tdFrist">600161</td>
+                <td class="tdFrist">天坛生物</td>
+                <td class="tdLast">
+                    <span>昨日建议：中期方向不明，暂时观望</span>
+                </td>
+                <td class="green">今日涨幅：-6.6%</td>
+            </tr>
+            <tr>
+                <td class="tdFrist">002759</td>
+                <td class="tdFrist">天际股份</td>
+                <td class="tdLast">
+                    <span>昨日建议：中期方向不明，暂时观望</span>
+                </td>
+                <td class="green">今日涨幅：-5.8%</td>
+            </tr>
+            <tr>
+                <td class="tdFrist">000789</td>
+                <td class="tdFrist">万年青</td>
+                <td class="tdLast">
+                    <span>昨日建议：可高抛低吸，摊低成本</span>
+                </td>
+                <td class="green">今日涨幅：-5.5%</td>
+            </tr>
+            </tbody>
+        </table>
+
+    </div>
+</div>
+<div style="width:1004px; margin:0 auto;">
+    <div class="plContent">
+        <div class="plBody clear">
+            <ul class="plList clear" style="top: -1074.26px;">
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/001.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">18***378</span>：幸好听了建议及早止损，不然要亏大!
+                    </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">223</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/002.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">18***118</span>：为什么那么准？是不是有内幕？
+                    </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">139</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/003.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">15***112</span>：我每天都来测，真的挺准
+                    </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">156</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/004.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">13***722</span>：绝对有内幕，不然不会那么准
+                    </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">150</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/005.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">18***803</span>：哈哈哈，涨百分之二十多了！谢谢啊！
+                    </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">123</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/006.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">13***673</span>：专业机构确实比我们这些小散户厉害
+                    </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">102</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/022.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">13***262</span>：不错，点赞！</p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">209</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/007.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">18***811</span>：小赚16个点，考虑再入手一只
+                    </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">186</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/008.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">13***254</span>：简直是股市小白的福音啊！
+                    </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-16</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">354</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/009.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">15***777</span>：感谢！短线和中线都赚了
+                    </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">232</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/010.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">15***131</span>：幸好听了建议没冲进去，不然又要套牢
+                    </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-16</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">311</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/011.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">18***378</span>：幸好听了建议及早止损，不然要亏大!
+                    </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">153</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/012.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">18***118</span>：为什么那么准？是不是有内幕？
+                    </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">133</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/013.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">15***112</span>：我每天都来测，真的挺准
+                    </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">256</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/014.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">13***722</span>：绝对有内幕，不然不会那么准
+                    </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">250</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/015.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">18***803</span>：哈哈哈，涨百分之二十多了！谢谢啊！
+                    </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">123</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/016.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">13***673</span>：专业机构确实比我们这些小散户厉害 </p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-14</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">1102</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/017.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">13***262</span>：不错，点赞！</p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">109</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/018.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">18***811</span>：小赚16个点，考虑再入手一只</p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-16</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">486</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/019.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">13***254</span>：简直是股市小白的福音啊！</p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-16</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">354</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/020.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">15***777</span>：感谢！短线和中线都赚了</p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-16</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">332</span> 赞</span>
+                    </p>
+                </li>
+                <li>
+                    <p style="color: #333333;font-size: 15px">
+                            <span class="userFace">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/021.jpg" style="width:40px; height:40px; border-radius:50%; bottom:0px; right:13px;">
+                            </span>
+                        <span style="color: #e73c3d">15***131</span>：幸好听了建议没冲进去，不然又要套牢</p>
+                    <p style="color: #999999">
+                        <span class="plTime">5-17</span>
+                        <span style="float: right">
+                                <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/good.png">
+                                <span class="red">211</span> 赞</span>
+                    </p>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
+<style>
+    .xz {background: #1668e6;padding: 20px 0;margin-top: 20px;height: 142px;}
+</style>
+<div class="xz">
+    <div class="searchBg1" style="width: 555px;">
+        <!-- <div class="try"></div> -->
+        <a class="btnBg1" id="btn3">领取明日涨停股</a>
+    </div>
+</div>
+<div class="bbg">
+    <p>投资有风险 入市需谨慎<br>
+        从事证券投资或期货交易，请通过合法证券期货经营机构进行。<br>
+        合法机构名单可到中国证监会网站（www.csrc.gov.cn）查询<br>
+        广州圣禾网络科技有限公司</p>
+</div>
+
+<!--模拟检测-->
+<div class="cjc">
+    <div class="bg"></div>
+    <div class="cjxa">
+        <div class="cjx">
+            <p>准备检测</p>
+            <span><em></em></span>
+        </div>
+    </div>
+</div>
+<!-- 成功弹窗 -->
+<div class="Layzer">
+    <div class="bg"></div>
+    <div class="qltca">
+        <div class="qltcc">
+            <a class="close" href="javascript:void(0)"> <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/close_p2.png"></a>
+            <h3></h3>
+            <p class="p2">股票走势计算完成<br>扫描下方二维码领取结果</p>
+            <!--<span>-->
+            <!--<input type="tel" id="Phone" name="tgMobile" placeholder="请输入手机号码" maxlength="11">-->
+            <!--<img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/tg2018/0425/115508/freeget.png" alt="" class="but" id="btn4">-->
+            <!--</span>-->
+            <!--<p class="p3">接收短信完全免费</p>-->
+            <img src="http://swkj.oss-cn-hangzhou.aliyuncs.com/weixin/2018051710025357904M7582583344.png" alt="" class="weima">
+            <p class="weima_text1">或手动添加微信号：<span>M7582583344</span></p>
+        </div>
+    </div>
+</div>
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="./jquery/jquery-1.8.3.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./layer/layer.js"></script>
+<script>
+    $(window).load(function () {
+        // var Search = new FzSearch(".searchInput", SearchCodeArray);
+        // Search.Match();
+
+        lunbo($('.sharesList'),63,-441,1500);
+
+        lunbo($('.plList'),77,-1309,2000);
+
+        function lunbo(ele,step,lit,time){
+            var T;
+            setInterval(function(){
+                T=parseInt(ele.css('top'));
+                ele.animate({'top':T-step},700,function(){
+                    if(T<=lit){
+                        ele.css('top',0);
+                    }
+                })
+            },time)
+        }
+
+        $(".btnBg").click(function () {
+            $('.cjc').fadeIn();
+            mnan();
+            setTimeout(function () {
+                $('.cjc').fadeOut(300);
+                $('.Layzer').fadeIn();
+            }, 2500)
+        });
+
+        $(".btnBg1").click(function () {
+            $('.cjc').fadeIn();
+            mnan();
+            setTimeout(function () {
+                $('.cjc').fadeOut(300);
+                $('.Layzer').fadeIn();
+            }, 2500)
+        });
+        //关闭
+        $('.Layzer .close').click(function () {
+            $("Phone").val("")
+            $('.Layzer').fadeOut(300);
+            $("body").off("touchmove");
+        })
+
+
+        function mnan() {
+            $(".cjx span em").width(0);
+            $(".cjx span em").animate({
+                width: "25%"
+            }, 500, "", function () {
+                $(".cjx p").html("正在通过最小二乘法OLS确定必要报酬率...");
+            });
+            $(".cjx span em").animate({
+                width: "50%"
+            }, 500, "", function () {
+                $(".cjx p").html("正在通过VAR系统确认风险值...");
+            });
+            $(".cjx span em").animate({
+                width: "75%"
+            }, 500, "", function () {
+                $(".cjx p").html("正在通过量价交易模型...");
+            });
+
+            $(".cjx span em").animate({
+                width: "100%"
+            }, 500, "", function () {});
+
+        }
+        UpData(5658,'#num');
+    });
+    //    评论时间
+    scrollTable();
+    function scrollTable() {
+        var i = 1;
+        var len = $('.table2bg tr').length;
+        $('.table2bg table').append($('.table2bg tr').clone());
+        var _table = $('.table2bg table').eq(0);
+        setInterval(function () {
+            _table.css('marginTop', -70 * i);
+            i++;
+            if (i == len + 2) {
+                _table.css('transition', 'none').css('marginTop', 0);
+                i = 1
+                setTimeout(function () {
+                    _table.css('transition', 'all 2.5s linear')
+                }, 700);
+            }
+        }, 2500);
+    }
+    function showLocale(objD) {
+        var str, colorhead, colorfoot;
+        var yy = objD.getYear();
+        if (yy < 1900) yy = yy + 1900;
+        var MM = objD.getMonth() + 1;
+        if (MM < 10) MM = '0' + MM;
+        var dd = objD.getDate();
+        if (dd < 10) dd = '0' + dd;
+        var hh = objD.getHours();
+        if (hh < 10) hh = '0' + hh;
+        var mm = objD.getMinutes();
+        if (mm < 10) mm = '0' + mm;
+        var ss = objD.getSeconds();
+        if (ss < 10) ss = '0' + ss;
+        var ww = objD.getDay();
+        if (ww == 0) colorhead = "<font>";
+        if (ww > 0 && ww < 7) colorhead = "<font >";
+        str = colorhead + yy + "/" + MM + "/" + dd + " &nbsp&nbsp" + hh + ":" + mm + ":" + ss + " ";
+        return (str);
+    }
+
+    function tick() {
+        var today;
+        today = new Date();
+        document.getElementById("new_data").innerHTML = showLocale(today);
+        window.setTimeout("tick()", 1000);
+    }
+    tick();
+    addTime();
+    function addTime() {
+        var day = 86400000;
+        $('.plTime').each(function (i) {
+            var date = new Date().getTime();
+            var n = Math.floor($('.plTime').eq(i).parents('p').find('.red').text() / 300);
+            var newDate = date - (day * n);
+            var mm = new Date(newDate).getMonth() + 1;
+            var dd = new Date(newDate).getDate();
+            $('.plTime').eq(i).text(mm + '-' + dd);
+        })
+    }
+    // 模拟数据下降
+    function UpData(initiaNumber, dom) {
+        var num2 = initiaNumber;
+        var time = "";
+        timeout();
+
+        function timeout() {
+            var Time = setTimeout(function () {
+                num2++;
+                $("" + dom).html(num2);
+                clearTimeout(Time);
+                // 更新定时器时间
+                time = Math.floor(Math.random() * 4000) + 200;
+                // 再次调用定时器
+                timeout()
+            }, time)
+        }
+    }
+    /**
+     * PlaceHolder兼容处理
+     */
+    function PlaceHolder() { };
+    PlaceHolder.prototype = {
+        // 判断兼容
+        ability: function () {
+            var input = document.createElement('input');
+            return "placeholder" in input
+        },
+        // placeholder表单兼容处理(不包括密码表单)
+        // 接收唯一参数 => obj:需要兼容的表单元素
+        handling: function (obj) {
+            if (!this.ability()) {
+                obj.each(function (index, ele) {
+                    // 给表单添加value属性，值为placeholder的值
+                    $(ele).attr({
+                        value: $(ele).attr("placeholder")
+                    })
+                    // 获取焦点/失去焦点
+                    $(ele).focus(function () {
+                        if ($(ele).val() == $(ele).attr("placeholder")) {
+                            $(ele).attr({
+                                value: ""
+                            });
+                        };
+                    }).blur(function () {
+                        if ($(ele).val() == "") {
+                            $(ele).attr({
+                                value: $(ele).attr("placeholder")
+                            });
+                        }
+                    })
+                })
+
+            }
+
+        },
+        // 对密码表单的特殊处理
+        pwHandling: function (obj) {
+            if (!$(this).ability) {
+                obj.each(
+                    function (index, element) {
+                        var pwdField = $(this);
+                        var pwdVal = pwdField.attr('placeholder');
+                        var pwdId = pwdField.attr('id');
+                        // 在原本密码表单下面添加一个普通的文本表单
+                        pwdField.after('<input id="' + pwdId + "" + index + '" type="text" value=' + pwdVal + ' autocomplete="off" />');
+                        // 获取创建出来的文本表单
+                        var pwdPlaceholder = $('#' + pwdId + "" + index);
+                        // 显示文本表单
+                        pwdPlaceholder.show();
+                        // 隐藏原本的密码表单
+                        pwdField.hide();
+
+                        // 获得焦点时
+                        pwdPlaceholder.focus(function () {
+                            // 将文本表单隐藏
+                            pwdPlaceholder.hide();
+                            // 原本的密码表单显示
+                            pwdField.show();
+                            // 密码表单获取焦点
+                            pwdField.focus();
+                        });
+
+                        // 失去焦点时
+                        pwdField.blur(function () {
+                            // 如果密码表单没有内容
+                            if (pwdField.val() == '') {
+                                // 则显示文本表单
+                                pwdPlaceholder.show();
+                                // 隐藏密码表单
+                                pwdField.hide();
+                            }
+                        });
+                    }
+                );
+            }
+        }
+    };
+    var ph = new PlaceHolder();
+    $(function () {
+        ph.handling($("input").not("input[type='password']"));
+        ph.pwHandling($('input[type="password"]'))
+    });
+</script>
+</body>
+</html>

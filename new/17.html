@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=0.5859375, shrink-to-fit=no">
+    <title>投资圈</title>
+
+    <!-- Bootstrap -->
+    <link href="./bootstrap4/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/public.css">
+    <link href="./css/11.css" rel="stylesheet">
+
+</head>
+<body>
+<div class="s-home">
+    <div>
+        <img src="./img/17/1_01.png">
+    </div>
+    <div style="position: relative;background-color: #0d7ab3;margin: 0;padding: 20px 0;">
+        <!--预约信息已提交成功，谢谢！-->
+        <img src="./img/17/1_08.png">
+        <a style="animation: tada 1s both infinite;-webkit-animation: tada 1s both infinite;display: block;position: absolute;margin-left: -20%;top:57%;left:46%;" href="javascript:viewWXBOX();" tt-data-click="" tt-data-convertid="59056576349" tt-data-eventtype="button">
+            <img src="./img/17/wxhb_but.png" id="btn01">
+        </a>
+    </div>
+
+    <div>
+        <img src="./img/17/1_02.png">
+    </div>
+    <div>
+        <img src="./img/17/1_03.png">
+    </div>
+    <div>
+        <img src="./img/17/1_04.png">
+    </div>
+    <div>
+        <img src="./img/17/1_05.png">
+    </div>
+    <!--<div style="background-color: #ffb500;margin: 0;">
+        &lt;!&ndash;预约信息已提交成功，谢谢！&ndash;&gt;
+        <div style="width: 60%;margin: 0 auto;padding: 20px 0 10px 0;">
+            <div class="form-group">
+                <input type="text" id="name" class="form-control form-control-lg " aria-describedby="emailHelp" placeholder="您的姓名">
+            </div>
+            <div class="form-group">
+                <input type="tel" id="phone" class="form-control form-control-lg " placeholder="您的手机号码">
+            </div>
+        </div>
+    </div>
+    <div style="position: relative;">
+        <div style="position: absolute;top:35px;left: 186px;">
+            &lt;!&ndash;<span class="user-wx" style="color:#ffffff;font-size: 36px;font-weight: bold;"></span>&ndash;&gt;
+            <img src="img/16/1_07.png"  onclick='lingqu()' />
+        </div>
+        <div>
+            <img src="./img/17/1_06.png">
+        </div>
+    </div>-->
+    <!--<div class="s-footer">
+        &lt;!&ndash;<span>版权所有 : 韩城集升商贸有限公司</span>&ndash;&gt;
+        <p class="user-copyright"></p>
+        <p>商品交易有风险 投资入市需谨慎<br />最终收益以实际为准</p>
+    </div>-->
+    <div class="s-footer">
+        <p>投资有风险 入市需谨慎<br>从事证券投资或期货交易，请通过合法证券期货经营机构进行。<br>合法机构名单可到中国证监会网站（网站（www.csrc.gov.cn）查询<br>北京天相财富管理顾问有限公司河北分公司</p>
+    </div>
+</div>
+
+<!-- Modal -->
+<div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <!--<div class="modal-header">
+                <h5 class="modal-title" id="exampleModalCenterTitle">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body">
+                ...
+            </div>-->
+            <div class="wx-box">
+                <div class="wx-img">
+                    <img src="./img/8/233-popbox.png" width="100%">
+                </div>
+                <div class="wx-text"><span class="user-wx"></span></div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="./jquery/jquery-3.3.1.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="./jquery/clipboard.min.js"></script>
+<script src="./bootstrap4/js/bootstrap.min.js"></script>
+<script src="./layer/layer.js"></script>
+
+<script src="./js/fun.js"></script>
+<!--监测代码监测代码start-->
+<script id="kw_tongji" src="http://tj.shangdee.com/kw.js?sign=d6396e998eb50d46970e7b04340747f1" charset="UTF-8"></script>
+
+<!--统计站点【xian.pacase.cn】-->
+<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1274578339'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s19.cnzz.com/z_stat.php%3Fid%3D1274578339%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>
+<!--统计站点【xian.pacase.cn】-->
+<!--统计站点【tg.hanchengtz.cc】-->
+<!--<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1274572402'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s13.cnzz.com/z_stat.php%3Fid%3D1274572402%26show%3Dpic1' type='text/javascript'%3E%3C/script%3E"));</script>-->
+<!--统计站点【tg.hanchengtz.cc】-->
+<!--监测代码监测代码end-->
+
+<script>
+    function lingqu() {
+        var name=$("#name").val();
+        var phone=$("#phone").val();
+        console.log(name);
+        console.log(phone);
+        if(name==="" || phone===""){
+            layer.alert("姓名或手机号码不能为空。");
+            return false;
+        }else{
+            layer.alert("预约信息已提交成功，谢谢！");
+        }
+    }
+</script>
+</body>
+</html>

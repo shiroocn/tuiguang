@@ -1,0 +1,24 @@
+$maxWidth:640px;
+.s-top{
+    max-width: $maxWidth;
+    margin: 0 auto;
+    position: relative;
+    img{
+        width: 100%;
+    }
+    .b1{
+        position: absolute;
+        top:506px;
+        left:93px;
+    }
+}
+.s-content{
+    max-width: $maxWidth;
+    margin: 0 auto;
+    background-color: #ffd475;
+}
+.s-footer{
+    max-width: $maxWidth;
+    margin: 0 auto;
+    background-color: #ffd475;
+}

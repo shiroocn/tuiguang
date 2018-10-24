@@ -1,0 +1,124 @@
+.s-top-nav {
+    height: 45px;
+    line-height: 45px;
+    background: #262b42;
+    color: #cfd8e5;
+    font-size: 18px;
+    padding: 0 10px;
+    .s-left {
+        span {
+            margin-left: 5px;
+        }
+    }
+    .blue_kit_btn {
+        float: left;
+        height: 44px;
+        position: relative;
+        padding: 0 8px;
+        color: #d1daea;
+        font-size: 16px;
+        -webkit-tap-highlight-color: transparent;
+    }
+}
+
+.s-nav {
+    height: 60px;
+    line-height: 60px;
+    background: #fafbfc;
+    font-size: 18px;
+    padding: 0 10px;
+    .s-l {
+        font-weight: bold;
+    }
+    .s-r {
+        font-size: 14px;
+    }
+}
+
+.s-contentxx {
+    padding: 10px;
+    max-width: 1080px;
+    margin: 0 auto;
+    p{
+        margin-bottom: 0.46rem!important;
+    }
+    table {
+        margin: 20px 0;
+        td {
+            padding: 0 5px;
+        }
+    }
+    .s-portrait {
+        img {
+            height: 38px;
+            width: 38px;
+        }
+    }
+    .s-name {
+        font-size: 14px;
+    }
+    .s-describe {
+        font-size: 12px;
+    }
+}
+
+.s-comments {
+    width: 100%;
+    background: #f3f3f3;
+    .s-list {
+        width: 100%;
+        .s-line {
+            border-bottom: 1px solid #fff;
+            .s-reply-box {
+                font-size: 12px;
+                ul {
+                    padding: 0;
+                    margin: 0 10px;
+                    li {
+                        padding: 0;
+                        margin: 0;
+                        list-style: none;
+                        .s-name {
+
+                        }
+                        .s-content {
+
+                        }
+                        .s-time {
+
+                        }
+                    }
+                }
+
+            }
+        }
+        td {
+            padding: 10px;
+        }
+        .s-name {
+            color: #3361a7;
+            font-size: 14px;
+
+        }
+        .s-time {
+            color: #c5c9cd;
+            font-size: 12px;
+        }
+        .s-content {
+            font-size: 14px;
+
+        }
+        .s-portrait {
+            height: 38px;
+            width: 38px;
+        }
+    }
+}
+
+.s-footer {
+    text-align: center;
+    height: 180px;
+    background: #f3f3f3;
+    padding-top: 30px;
+    font-size: 14px;
+}

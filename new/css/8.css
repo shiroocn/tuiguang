@@ -1,0 +1,15 @@
+.s-home {
+  width: 100%; }
+  .s-home img {
+    width: 100%; }
+
+.wx-box .wx-img {
+  z-index: 1; }
+.wx-box .wx-text {
+  font-size: 3rem;
+  position: absolute;
+  z-index: 9;
+  left: 162px;
+  top: 387px; }
+
+/*# sourceMappingURL=8.css.map */

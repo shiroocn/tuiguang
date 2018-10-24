@@ -1,0 +1,79 @@
+body {
+  /*background-color: rgb(246, 246, 246);*/
+  background-color: #ffffff;
+  font-size: 1.4rem;
+  line-height: 2rem; }
+
+.s-line {
+  border-bottom: 1px solid #cccccc;
+  margin: 0 20px; }
+
+.wx {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 0 20px; }
+  .wx .wx-number {
+    font-weight: bold;
+    color: #ff0000; }
+
+.wen-ti {
+  margin: 0 20px; }
+
+.question {
+  background: url("../img/1.png") no-repeat;
+  padding: 10px; }
+  .question .tt {
+    font-size: 1.8rem;
+    margin-bottom: 15px;
+    padding: 40px 20px 0px 20px; }
+  .question .ab {
+    padding: 0 20px 20px 20px;
+    font-size: 1.4rem; }
+    .question .ab .c {
+      margin-bottom: 10px; }
+      .question .ab .c span {
+        margin-right: 5px; }
+      .question .ab .c div {
+        word-break: break-all; }
+
+.counselor {
+  word-break: break-all;
+  margin-top: 20px;
+  margin-bottom: 0;
+  padding: 0 20px;
+  width: 100%;
+  line-height: 2rem; }
+  .counselor .portrait {
+    text-align: center;
+    width: 100%; }
+    .counselor .portrait img {
+      width: 10rem;
+      height: 10rem; }
+  .counselor .describe {
+    width: 100%;
+    font-size: 1.4rem; }
+    .counselor .describe p {
+      margin: 0;
+      padding: 0 0 0 15px; }
+      .counselor .describe p span {
+        margin-right: 5px; }
+
+.footer {
+  margin-bottom: 20px;
+  margin-top: 20px;
+  padding: 0 20px; }
+
+.wx-img {
+  width: 100%;
+  text-align: center;
+  background: url("../img/2.png") no-repeat right bottom;
+  padding-bottom: 50px; }
+  .wx-img .a {
+    width: 130px;
+    height: 130px; }
+
+.logo {
+  text-align: center;
+  margin-top: 30px; }
+
+/*# sourceMappingURL=s.css.map */

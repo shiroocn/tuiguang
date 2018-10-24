@@ -1,0 +1,90 @@
+body{
+    /*background-color: rgb(246, 246, 246);*/
+    background-color: #ffffff;
+    font-size: 1.4rem;
+    line-height: 2rem;
+}
+.s-line{
+    border-bottom: 1px solid #cccccc;
+    margin: 0 20px;
+}
+.wx{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 0 20px;
+    .wx-number{
+        font-weight: bold;
+        color: #ff0000;
+    }
+}
+.wen-ti{
+    margin: 0 20px;
+}
+.question{
+    background: url("../img/1.png") no-repeat;
+    padding: 10px;
+    .tt{
+        font-size: 1.8rem;
+        margin-bottom: 15px;
+        padding: 40px 20px 0px 20px;
+    }
+    .ab{
+        padding: 0 20px 20px 20px;
+        font-size: 1.4rem;
+        .c{
+            margin-bottom: 10px;
+            span{
+                margin-right: 5px;
+            }
+            div{
+                word-break: break-all;
+            }
+        }
+    }
+}
+.counselor{
+    word-break: break-all;
+    margin-top: 20px;
+    margin-bottom: 0;
+    padding: 0 20px;
+    width: 100%;
+    line-height: 2rem;
+    .portrait{
+        text-align: center;
+        width: 100%;
+        img{
+            width: 10rem;
+            height: 10rem;
+        }
+    }
+    .describe{
+        width: 100%;
+        font-size: 1.4rem;
+        p{
+            margin: 0;
+            padding: 0 0 0 15px;
+            span{
+                margin-right: 5px;
+            }
+        }
+    }
+}
+.footer{
+    margin-bottom: 20px;
+    margin-top: 20px;
+    padding: 0 20px;
+}
+.wx-img{
+    width: 100%;
+    text-align: center;
+    background: url("../img/2.png") no-repeat right bottom;
+    padding-bottom: 50px;
+    .a{
+        width: 130px;
+        height: 130px;
+    }
+}
+.logo{
+    text-align: center;
+    margin-top: 30px;
+}

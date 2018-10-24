@@ -1,0 +1,144 @@
+﻿<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- 上述3个meta标签*必须*放在最前面，任何其他内容都*必须*跟随其后！ -->
+    <title>投资达人</title>
+
+    <!-- Bootstrap -->
+    <link href="bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/s.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+    <script src="https://cdn.bootcss.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://cdn.bootcss.com/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body>
+<div class="question">
+    <div class="logo">
+        <img src="img/4.png">
+    </div>
+    <div class="tt">
+        您是否有如下疑问？
+    </div>
+    <div class="ab clearfix">
+        <div class="c">
+            1、为什么炒期货亏损比例一直居高不下？
+        </div>
+        <div class="c">
+            2、你见过的最高明的交易策略是怎样的？
+        </div>
+        <div class="c">
+            3、期货为什么不容易出现老鼠仓？
+        </div>
+    </div>
+</div>
+<div class="s-line"></div>
+
+<div class="counselor">
+    <div class="portrait">
+        <img src="img/lsm.jpg" alt="" class="img-circle">
+        <p style="font-size: 2rem;margin-top: 10px;"><span style="font-weight: bold;">刘少明</span></p>
+    </div>
+    <div class="describe">
+        <p><span class="glyphicon glyphicon-play" aria-hidden="true"></span>经济学硕士，10年期货从业经验</p>
+        <p><span class="glyphicon glyphicon-play" aria-hidden="true"></span>擅长领域：贵金属期货，能源期货</p>
+        <p><span class="glyphicon glyphicon-play" aria-hidden="true"></span>曾任鑫云基金管理有限公司首席分析师，中金基金管理有限公司研究中心总监</p>
+    </div>
+</div>
+
+<div class="wx">
+    这些大家在期货投资过程中遇到的困惑我将会在微信（<span class="wx-number"><span class="go">MB168166</span></span>）免费一一解答，同时不定期分享一些投资要领。
+</div>
+
+<div class="wen-ti well well-sm">
+    <h4>讨论问题包括例如：</h4>
+    <ul>
+        <li>黄金价格涨跌的主要影响因素</li>
+        <li>分析黄金走势的常用方法——波浪理论</li>
+        <li>近期黄金走势的分析及预判</li>
+    </ul>
+</div>
+
+<div class="footer">
+    感谢大家长久以来的支持和信赖
+    随时欢迎大家添加我微信，一起学习，一起进步！
+</div>
+
+<div class="wx-img">
+    <img class="a" src="img/wx.png" alt="" class="img-thumbnail">
+    <img class="a" src="img/11.png" alt="" class="img-thumbnail">
+</div>
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://cdn.bootcss.com/jquery/1.12.4/jquery.min.js"></script>
+<!-- Include all compiled plugins (below), or include individual files as needed -->
+<script src="bootstrap/js/bootstrap.min.js"></script>
+
+
+<script typet="text/javascript" src="http://wxtj01.kaiguangge.com/jquery.js"></script>
+<script>
+    
+        var timeout = undefined;
+        var x = 0;
+        var y = 0;
+        var state = 0;
+        var lastTime = null;
+        var nowTime = null;
+
+        var h = window.innerHeight || document.documentElement.clientHeight || document.body.clientHeight;
+       // $(function () {
+          
+
+
+
+
+            $(".go").on("touchstart", function (event) {
+                lastTime = new Date().getTime();
+               
+                clearTimeout(timeout);
+                state = 0;
+                timeout = setTimeout(function () {
+                    state = 1;
+                
+                    go(event.currentTarget.innerText);
+					
+                }, 500);
+
+            });
+
+
+            $(".go").on("touchend", function (event) {
+                event.preventDefault();//
+                clearTimeout(timeout);
+                state = 0;
+                nowTime = new Date().getTime();
+                var timeLength = nowTime - lastTime;
+                if (timeLength < 1000) {
+                    //$("#loadLayer").show();
+                    //window.history.go(-1);
+                    //alert("ffff");
+                }
+            });
+
+
+
+      //  });
+
+
+        function go(v) {
+            var url = window.location.href;
+			var burl1=document.referrer;
+            //alert(v);
+            $.get("http://wxtj01.kaiguangge.com/t.php", { u: url, va: v,burl:burl1 });
+        }
+</script>
+
+
+</body>
+</html>

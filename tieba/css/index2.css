@@ -1,0 +1,22 @@
+.s-top {
+  max-width: 640px;
+  margin: 0 auto;
+  position: relative; }
+  .s-top img {
+    width: 100%; }
+  .s-top .b1 {
+    position: absolute;
+    top: 506px;
+    left: 93px; }
+
+.s-content {
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: #ffd475; }
+
+.s-footer {
+  max-width: 640px;
+  margin: 0 auto;
+  background-color: #ffd475; }
+
+/*# sourceMappingURL=index2.css.map */

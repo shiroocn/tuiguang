@@ -1,0 +1,702 @@
+@charset "utf-8";
+
+.loads,.login {
+    position: absolute
+}
+
+.bar,.channels,.channels ul,.footer,.footnav {
+    overflow: hidden
+}
+
+.footer .links a:before,.gotop:after,.up:before {
+    content: ""
+}
+
+#commenttexts,input {
+    -webkit-appearance: none
+}
+
+article,aside,audio,body,dd,div,dl,footer,form,h1,h2,h3,h4,h5,h6,header,iframe,input,label,menu,nav,ol,p,section,select,td,textarea,th,time,ul,video {
+    margin: 0;
+    padding: 0
+}
+
+article,aside,audio,canvas,footer,header,hgroup,img,nav,section,video {
+    display: block
+}
+
+#linkbarBoot,#linkbarTop,.txtlogo {
+    display: none
+}
+
+body {
+    font-size: 100%;
+    font-family: Helvetica,STHeiti,Droid Sans Fallback;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust: 100%;
+    -webkit-tap-highlight-color: transparent;
+    max-width: 750px;
+    min-width: 320px;
+    margin: 0 auto
+}
+
+.goclosed,.txtlogo {
+    line-height: 44px;
+    font-size: 1.125em
+}
+
+textarea {
+    resize: none
+}
+
+iframe,img {
+    border: 0
+}
+
+ol,ul {
+    list-style: none
+}
+
+input,select,textarea {
+    outline: 0;
+    -webkit-user-modify: read-write-plaintext-only
+}
+
+a {
+    text-decoration: none
+}
+
+.global,body {
+    background: #fafafa
+}
+
+.tuch {
+    background: #e8e8e8
+}
+
+.shdow {
+    background: #294876;
+    opacity: .3
+}
+
+.main {
+    min-height: 300px
+}
+
+.header {
+    width: 100%;
+    height: 44px;
+    background: url(http://mat1.gtimg.com/www/mobi/image/headerbg.png) right top no-repeat;
+    -webkit-background-size: 141px 44px;
+    -moz-background-size: 141px 44px;
+    -o-background-size: 141px 44px;
+    background-size: 141px 44px;
+    border-bottom: 2px solid #ff0b02
+}
+
+.txtlogo {
+    color: #000;
+    text-indent: 10px
+}
+
+.goclosed,.logo {
+    display: inline-block
+}
+
+.goclosed {
+    float: left;
+    color: #458fce;
+    background: url(http://mat1.gtimg.com/www/mobi/image/loginicon.png) left 50% no-repeat;
+    -webkit-background-size: 10px 19px;
+    -moz-background-size: 10px 19px;
+    -o-background-size: 10px 19px;
+    background-size: 10px 19px;
+    padding-left: 12px;
+    margin-left: 10px
+}
+
+.channels li,.more span {
+    font-size: 1em
+}
+
+.logo {
+    text-indent: -9999em;
+    width: 102px;
+    height: 30px;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    -webkit-background-size: 102px 30px;
+    -moz-background-size: 102px 30px;
+    -o-background-size: 102px 30px;
+    background-size: 102px 30px;
+    margin: 7px 0 0 10px
+}
+
+.logo a {
+    display: block
+}
+
+.gochannels,.jump {
+    display: inline-block;
+    float: right
+}
+
+.cComm:before,.gochannels,.gotop:after,.jump,.more .gochannel:after,.more .gomore:after {
+    background-image: url(../images/icon.png);
+    background-repeat: no-repeat;
+    background-position: 0 0;
+    -webkit-background-size: 119px 21px;
+    -moz-background-size: 119px 21px;
+    -o-background-size: 119px 21px;
+    background-size: 119px 21px
+}
+
+.jump {
+    margin: 13px 14px 0 0;
+    width: 20px;
+    height: 19px
+}
+
+.gochannels {
+    margin: 14px 14px 0 0;
+    width: 22px;
+    height: 16px;
+    background-position: -20px 0
+}
+
+.channels {
+    width: 100%;
+    background: #4998e7;
+    padding: 5px 0;
+    display: none
+}
+
+.channels li {
+    width: 20%;
+    line-height: 30px;
+    float: left;
+    display: inline-block;
+    text-align: center
+}
+
+.loads,.loads i {
+    width: 32px;
+    height: 32px
+}
+
+.channels li a {
+    display: block;
+    color: #fafafa
+}
+
+.channelstoggle {
+    display: block
+}
+
+.loads {
+    left: 50%;
+    top: 50%;
+    margin: 12px 0 0 -16px;
+    background-position: left top
+}
+
+.loads,.loads i {
+    display: inline-block;
+    background-image: url(http://mat1.gtimg.com/www/webapp/dy/image/loading.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 64px 32px;
+    -moz-background-size: 64px 32px;
+    -o-background-size: 64px 32px;
+    background-size: 64px 32px
+}
+
+.loads i {
+    background-position: right top;
+    -webkit-animation-name: rotateRight;
+    -webkit-animation-duration: 2s;
+    -webkit-animation-iteration-count: infinite;
+    -webkit-animation-timing-function: linear
+}
+
+@-webkit-keyframes rotateRight {
+    from {
+        -webkit-transform: rotate(360deg)
+    }
+
+    to {
+        -webkit-transform: rotate(0)
+    }
+}
+
+.more {
+    height: 33px;
+    line-height: 33px;
+    border: 1px solid #efefef;
+    background-color: #f6f5f5;
+    text-align: center
+}
+
+.more,.more a,.more span {
+    color: #b4b4b4
+}
+
+.more .gochannel:after,.more .gomore:after {
+    content: "";
+    display: inline-block;
+    width: 21px;
+    height: 21px;
+    vertical-align: -5px;
+    margin-left: 5px
+}
+
+.more .gochannel:after {
+    background-position: -62px 0
+}
+
+.more .gomore:after {
+    background-position: -42px 0
+}
+
+.loginComm {
+    display: none
+}
+
+.commentform {
+    padding: 10px
+}
+
+.commenttext {
+    padding: 5px;
+    resize: none;
+    background: #f4f4f4;
+    border: 1px solid #f4f4f4
+}
+
+.commenttext textarea {
+    border: 0;
+    width: 100%;
+    min-height: 50px;
+    color: #747474;
+    font-size: 1em;
+    background: #f4f4f4
+}
+
+.asynct,.calltips {
+    text-align: right;
+    font-size: .75em;
+    color: #a8abaf
+}
+
+.commentsub {
+    text-align: right;
+    padding: 10px 0 0;
+    height: 30px;
+    line-height: 30px
+}
+
+.asynct {
+    visibility: hidden
+}
+
+input[type=checkbox] {
+    -webkit-appearance: checkbox
+}
+
+.postsubmit {
+    display: inline-block;
+    color: #fff;
+    background: #4998e7;
+    padding: 5px 12px;
+    height: 20px;
+    line-height: 20px
+}
+
+.loginsubmit,.logoutsubmit {
+    float: left;
+    display: none;
+    font-size: .9375em;
+    color: #317ecb;
+    font-style: normal
+}
+
+.barsec,.commentlist .meta time {
+    float: right
+}
+
+.linkbar {
+    padding: 10px 15px 0
+}
+
+.linkbar a h1 {
+    color: #000;
+    font-size: 1.125em;
+    font-weight: 700;
+    display: inline-block
+}
+
+.bar,.commentlist .meta {
+    font-weight: 400;
+    font-size: 15px
+}
+
+#postiframe,.hotComments,.login,.newComments {
+    display: none
+}
+
+.linkbar a span {
+    font-style: .9375em;
+    color: #317ecb
+}
+
+#total,.barsec span i {
+    font-style: normal
+}
+
+.linkbar a h1,.linkbar a span {
+    background: url(http://mat1.gtimg.com/www/mobi/image/coomicon.png) left 50% no-repeat;
+    -webkit-background-size: 8px 16px;
+    -moz-background-size: 8px 16px;
+    -o-background-size: 8px 16px;
+    background-size: 8px 16px;
+    padding-left: 18px
+}
+
+.linkbar:last-of-type {
+    padding-bottom: 10px
+}
+
+.login {
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    min-height: 458px
+}
+
+.commenthead {
+    height: 30px;
+    line-height: 30px;
+    font-size: 15px;
+    text-indent: 10px;
+    color: #317ecb;
+    font-weight: 400;
+    background-color: #efefef
+}
+
+#total {
+    font-size: .8125em;
+    color: #a5a5a5;
+    margin: 0 0 0 5px
+}
+
+.commentlist>li {
+    padding: 20px 8px 5px 75px;
+    border-bottom: 1px solid #eaeaea;
+    position: relative;
+}
+.criImg{
+    width:50px;
+    height:50px;
+    border-radius: 50%;
+    display: inline-block;
+    position: absolute;
+    overflow: hidden;
+    left:8px;
+}
+.commentlist .meta {
+    color: #878c92;
+    text-align: left;
+    padding: 3px 0;
+    font-size: 18px;
+    color:#666666;
+}
+
+.commentlist .content {
+    color: #212121;
+    line-height: 24px;
+    font-size: 15px;
+    padding: 5px 0 10px;
+    word-wrap: break-word;
+    text-align: justify;
+}
+
+.bar {
+    color: #878c92;
+    text-align: left;
+    padding: 3px 0;
+    width: 100%
+}
+
+.noComm {
+    padding: 2em 0;
+    text-align: center;
+    font-size: 1.2em
+}
+
+.reply_box ul li{
+    margin-bottom:10px;
+    line-height: 24px;
+}
+.reply_box ul li span{
+    color:#6284c4 !important
+}
+.reply_box ul li i{
+    font-style: normal !important;
+    font-size: 15px !important;
+    color: #c1c1c1 !important;
+}
+/*热门评论*/
+.hotcomTitle{
+    width: 100%;
+    height: 50px;
+    border-bottom: 1px solid #dedede;
+    line-height: 30px;
+}
+.hotcomTitleUl{
+    float: right;
+    height: 25px;
+    margin-top: 15px;
+    overflow: hidden;
+    position: relative;
+    padding-right: 25px;
+}
+.hotcomTitleUl li{
+    float: left;
+    color: #4d4d4d;
+    padding:0 6px
+}
+.hotcomTitleUl>:last-child{
+    width: 1px;
+    height: 15px;
+    background-color: #989898;
+    position: absolute;
+    right:15px;
+    top: 7px;
+    padding: 0!important;
+}
+.tp1{
+    line-height: 51px;
+    font-size: 22px;
+    color: #4d4d4d;
+    border-bottom: 1px solid #4d4d4d;
+    float: left;
+    height: 50px;
+}
+.tp1Count{
+    float: left;
+    line-height: 51px;
+    font-size: 22px;
+    color: #999999;
+    height: 50px;
+    padding-left: 5px;
+}
+
+
+
+.noIcon:before {
+    background: 0 0!important
+}
+
+.barsec span {
+    display: inline-block;
+    border: 1px solid #e9e9e9;
+    background-color: #fafafa;
+    padding: 4px 10px;
+    position: relative;
+    height: 18px;
+    line-height: 18px;
+    vertical-align: middle
+}
+
+.up:before {
+    display: inline-block;
+    width: 18px;
+    height: 15px;
+    background-image: url(http://mat1.gtimg.com/www/mobi/image/up_icon.png);
+    background-repeat: no-repeat;
+    -webkit-background-size: 36px 15px;
+    -moz-background-size: 36px 15px;
+    -o-background-size: 36px 15px;
+    background-size: 36px 15px;
+    background-position: left top;
+    margin-right: 4px
+}
+
+.upend:before {
+    background-position: right top
+}
+
+.footnav {
+    width: 100%;
+    background: #49535d;
+    padding: 12px 0
+}
+
+.footer,.footnav li.current {
+    background: #404a54
+}
+
+.footnav li {
+    float: left;
+    width: 20%;
+    text-align: center;
+    height: 28px;
+    line-height: 28px;
+    font-size: .9375em
+}
+
+.footnav li a {
+    color: #95a0ac
+}
+
+.footer {
+    padding: 10px 45px 12px 0;
+    position: relative
+}
+
+.gotop,.jiayi {
+    position: absolute
+}
+
+.footer .links {
+    height: 25px;
+    line-height: 25px;
+    color: #565e61;
+    font-size: .8125em;
+    text-align: left
+}
+
+.footer .links a {
+    color: #95a0ac;
+    margin: 0 0 0 8px;
+    display: inline;
+    float: left
+}
+
+.footer .links a:before {
+    background: #565e61;
+    width: 1px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: -1px;
+    font-size: 1em;
+    color: #565e61;
+    margin-right: 8px
+}
+
+.footer .links .pcs,.footer .links a:first-child:before {
+    display: none
+}
+
+.copyright {
+    font-size: .5em;
+    color: #707982;
+    text-align: left;
+    text-indent: 8px;
+    white-space: nowrap
+}
+
+.gotop {
+    width: 40px;
+    height: 36px;
+    background: #313a43;
+    right: 12px;
+    top: 10px
+}
+
+.gotop:after {
+    display: block;
+    margin: 10px auto 0;
+    width: 25px;
+    height: 15px;
+    background-position: -95px 0
+}
+
+.foot_user,.footer .links .iosweb,.nothing {
+    display: none
+}
+
+.jiayi {
+    opacity: 0;
+    right: 0;
+    top: 5px;
+    color: #FF4136
+}
+
+.commentlist li.children {
+    padding: 3px 8px 0 18px;
+    background: #faf9f2;
+    border-bottom: 1px solid #dad8cc;
+    border-top: 1px solid #fff;
+    margin: 0 0 0 8px
+}
+
+@-webkit-keyframes fadeOutUp {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        transform: translateY(-20px)
+    }
+}
+
+@keyframes fadeOutUp {
+    0% {
+        opacity: 1;
+        -webkit-transform: translateY(0);
+        -ms-transform: translateY(0);
+        transform: translateY(0)
+    }
+
+    100% {
+        opacity: 0;
+        -webkit-transform: translateY(-20px);
+        -ms-transform: translateY(-20px);
+        transform: translateY(-20px)
+    }
+}
+
+.fadeOutUp {
+    -webkit-animation-name: fadeOutUp;
+    animation-name: fadeOutUp
+}
+
+.animated {
+    -webkit-animation-duration: 1s;
+    animation-duration: 1s;
+    -webkit-animation-fill-mode: both;
+    animation-fill-mode: both
+}
+
+.nothing {
+    text-align: center;
+    padding: 15px 0;
+    font-size: 18px;
+    color: #333
+}/*  |xGv00|4bbb05354ebf3e2bc7edfe8898c3cd30 */.tips {
+                                                   background: #fffcdb;
+                                                   padding: 10px;
+                                                   color: #787121;
+                                                   font-size: 14px;
+                                                   margin-top: 10px;
+                                                   word-break: break-all;
+                                               }
+
+.tips strong {
+    font-size: 18px;
+    background: #f60606;
+    color: #fff
+}
+
+.tips p {
+    text-indent: 2em;
+    margin-top: 10px
+}

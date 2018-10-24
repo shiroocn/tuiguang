@@ -1,0 +1,174 @@
+body {
+    margin:0 auto;
+    width:100%;
+    height:100%;
+    background-color:#FFF;
+    color:#000;
+    font:20px Microsoft Yahei,Verdana,Helvetica,sans-serif;
+}
+.home {
+    width: 100%;
+    margin: 0 auto;
+    max-width: 640px;
+    text-align:center;
+    .banner{
+        img{
+            width: 100%;
+        }
+    }
+    .add-wx{
+        margin-top: 20px;
+        margin-bottom: 20px;
+        font-size: 30px;
+        font-weight: bold;
+        color: #ff0000;
+    }
+    .weixin {
+        background-image:url("../img/btold.png");
+        background-position:left top;
+        background-repeat:no-repeat;
+        color:#000;
+        height:118px;
+        margin-left:auto;
+        text-align:center;
+        width:534px;
+        margin-top:10px;
+        margin-right:auto;
+        margin-bottom:0;
+        .wei_line {
+            width:400px;
+            text-align:center;
+            color:#ffeb0a;
+            font-weight:700;
+            font-size:34px;
+            padding-top:28px;
+            padding-left:200px;
+        }
+    }
+    .weixin1{
+        .but {
+            a {
+                display: block;
+                width: 50%;
+                line-height: 6rem;
+                background: #ff1010;
+                color: #fff;
+                font-size: 4rem;
+                margin: 0 auto;
+                border-bottom: 5px solid #a43215;
+                text-align: center;
+                border-radius: 10px;
+                animation: bs 0.5s linear alternate infinite;
+                -webkit-animation: bs 0.5s linear alternate infinite;
+            }
+        }
+    }
+    .nuo {
+        width: 100%;
+        margin-top: 40px;
+        height: 165px;
+        padding: 0 20px;
+        .nuo_dun {
+            width: 35%;
+            height: 165px;
+            float: left;
+        }
+        .fr {
+            width: 65%;
+            float: right;
+            text-align: left;
+            font-size: 24px;
+            color: #000;
+
+            .blue {
+                color: #6392da;
+                font-size: 40px;
+                margin: 0;
+                padding-bottom: 20px;
+            }
+            p{
+                line-height: 36px;
+            }
+        }
+    }
+    .icon_line {
+        width: 100%;
+        text-align: center;
+        margin-top: 40px;
+        padding-bottom: 30px;
+        .box{
+            margin: 0 auto;
+            .icon {
+                width: 33%;
+                float: left;
+                h3{
+                    color: #ff0000;
+                    font-weight: bold;
+                }
+            }
+        }
+    }
+    .ls-top{
+        background-image: url(../img/bolang.png);
+        height: 33px;
+        width: 100%;
+    }
+    .ls-table{
+        width: 100%;
+        margin-top: -2px;
+    }
+    .s-footer{
+        background-color: #8c4d2e;
+        padding-top: 50px;
+        padding-right: 0;
+        padding-left: 0;
+        margin:-2px 0 0 0;
+        .bq{
+            color: #ffffff;
+            text-align: center;
+            padding-top: 50px;
+            padding-bottom: 10px;
+        }
+    }
+}
+.active {
+    display: block!important;
+}
+.popup {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+
+    background-image: url("../img/popup-bg.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    width: 558px;
+    height: 601px;
+    .popup-close{
+        float: right;
+        font-weight: bolder;
+        font-size: 45px;
+        line-height: 63px;
+        padding: 15px 20px;
+        z-index: 10;
+        background-color: #ffffff;
+        border-radius: 50%;
+        width: 100px;
+    }
+    .content{
+        .top{
+            margin-top: 372px;
+            font-size: 4rem;
+            color: #ffffff;
+        }
+        .bottom{
+            margin-top: 40px;
+        }
+    }
+}

@@ -1,0 +1,18 @@
+.s-home{
+    width: 100%;
+    img{
+        width: 100%;
+    }
+}
+.wx-box{
+    .wx-img{
+        z-index: 1;
+    }
+    .wx-text{
+        font-size: 3rem;
+        position: absolute;
+        z-index: 9;
+        left:162px;
+        top:387px;
+    }
+}

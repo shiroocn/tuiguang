@@ -1,0 +1,36 @@
+body{
+    background: rgb(239, 239, 239);
+}
+.home{
+    max-width: 640px;
+    margin: 0 auto;
+    background-color: #ffffff;
+    .title {
+        width: 90%;
+        margin: 0 auto;
+        text-align: center;
+    }
+    .time{
+        padding: 20px;
+    }
+    .content{
+        font-size: 1.6rem;
+        padding: 0 10px;
+        line-height: 2.2rem;
+    }
+    .footer{
+        padding: 10px 0 100px 0;
+        text-align: center;
+    }
+    .wx{
+        padding: 10px;
+        width: 100%;
+        max-width: 640px;
+        border: 1px solid #0f0f0f;
+        position: fixed;
+        bottom: 0;
+        background-color: #ffffff;
+        z-index: 9;
+        font-size: 1.8rem;
+    }
+}

@@ -1,0 +1,138 @@
+body{
+  background: #f4f5f7;
+}
+.home{
+  max-width: 640px;
+  margin: 0 auto;
+  .top{
+    width: 100%;
+    height: 6.5rem;
+    border-bottom: 1px solid #d8d9db;
+    background: #fafafa;
+    padding: 0 3.75% 0 3.75%;
+    .l {
+      width: 4.7rem;
+      height: 4.7rem;
+      float: left;
+      margin: 0.8rem 0 0 0;
+      img{
+        width: 100%;
+        clear: both;
+      }
+    }
+    .r{
+      color: #e94e4e;
+      float: right;
+      line-height: 6.5rem;
+      ul{
+        li{
+          float: right;
+          text-align: center;
+          list-style: none;
+          font-size: 3rem;
+        }
+      }
+    }
+  }
+  .article{
+    background-color: #ffffff;
+    .title {
+      width: 90%;
+      margin: 0 auto;
+      text-align: center;
+      h3{
+        font-size: 4.6rem;
+        margin-top: 0!important;
+        padding-top: 20px!important;
+      }
+    }
+    .time{
+      font-size: 2rem;
+      padding: 20px;
+    }
+    .content{
+      font-size: 2.8rem;
+      padding: 0 10px;
+      line-height: 3.5rem;
+    }
+  }
+
+  .s-comment{
+    margin-top: 12px;
+    background-color: #ffffff;
+    .title{
+      color: #e94e4e;
+      font-size: 4rem;
+      padding: 10px;
+      border-left: 6px solid #e94e4e;
+    }
+    ul{
+      margin: 0;
+      padding: 0;
+      li{
+        list-style: none;
+        margin: 0;
+        padding: 0;
+        .one{
+          .a{
+            width: 68px;
+            text-align: center;
+            line-height: 68px;
+          }
+          .b{
+            padding-top: 16px;
+            .name{
+              font-size: 2.6rem;
+              color: #3361a7;
+            }
+            .time{
+              font-size: 2rem;
+              color: #c5c9cd;
+            }
+          }
+        }
+        .content{
+          padding-left: 68px;
+          font-size: 2.6rem;
+          padding-right: 10px;
+          padding-bottom: 10px;
+          border-bottom: 1px solid #EEEEEE;
+          line-height: 3rem;
+          .reply{
+            font-size: 2.4rem;
+            padding-top: 10px;
+            .name{
+              color: #3361a7;
+            }
+            .time{
+              font-size: 2rem;
+              color: #c5c9cd;
+            }
+          }
+        }
+      }
+    }
+  }
+  .footer{
+    font-size: 2rem;
+    text-align: center;
+  }
+  .wx{
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    .img{
+      z-index: 1;
+    }
+    .text{
+      font-size: 3.8rem;
+      font-weight: bold;
+      color: #ffffff;
+      position: absolute;
+      z-index: 9;
+      left: 440px;
+      top:56px;
+    }
+  }
+}

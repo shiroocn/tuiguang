@@ -34,11 +34,11 @@ var userWXQR="./img/zjtx/cdx1_qr.png";
 var userPortrait="./img/zjtx/cdx1.jpg";
 var userPortraitBanner="./img/zjtx/cdx1_banner_old.jpg";*/
 
-var userName="林智宏";
+/*var userName="林智宏";
 var userWX="cici111888cici";
 var userWXQR="./img/zjtx/lzh_qr.jpg";
 var userPortrait="./img/zjtx/lzh.jpg";
-var userPortraitBanner="./img/zjtx/lzh_banner_old.jpg";
+var userPortraitBanner="./img/zjtx/lzh_banner_old.jpg";*/
 
 /*var userName="温祝";
 var userWX="wenzhu076900";
@@ -59,7 +59,7 @@ var userPortrait="./img/zjtx/cdx.jpg";
 var userPortraitBanner="./img/zjtx/cdx_banner_old.jpg";*/
 
 /*var userName="陈德明";
-var userWX="liuguohua28";
+var userWX="liuguohua28";同
 var userWXQR="./img/zjtx/cdm_qr.png";
 var userPortrait="./img/zjtx/cdm.jpg";
 var userPortraitBanner="./img/zjtx/cdm_banner_old.png";*/
@@ -88,12 +88,18 @@ var userWXQR="./img/zjtx/ssh_qr.png";
 var userPortrait="./img/zjtx/ssh.jpg";
 var userPortraitBanner="./img/zjtx/ssh_banner_old.png";*/
 
+var userName="赵炜";
+var userWX="qwe188S";
+var userWXQR="./img/zjtx/zw_qr.jpg";
+var userPortrait="./img/zjtx/zw.jpg";
+var userPortraitBanner="./img/zjtx/zw_banner_old.png";
+
 //var userCopyright="版权所有:金创互动科技（深圳）有限公司";
 //var userCopyright="版权所有:韩城集升商贸有限公司";
-//var userCopyright="版权所有:厦门小小雨点金融信息服务有限公司";
+var userCopyright="版权所有:厦门小小雨点金融信息服务有限公司";
 //var userCopyright="版权所有:陕西卓创信息科技有限公司";
 //var userCopyright="版权所有：深圳市美易互动科技有限公司";
-var userCopyright="版权所有：北京经纬诚信投资公司";
+//var userCopyright="版权所有：北京经纬诚信投资公司";
 
 function viewImg(obj) {
     console.log(obj.src);

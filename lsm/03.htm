@@ -437,7 +437,20 @@
     </div>
 </div>
 <script src="./jquery/jquery-3.3.1.min.js"></script>
-<script id="kw_tongji" src="http://tj.hzypro.com/kw.js?sign=d6396e998eb50d46970e7b04340747f1" charset="UTF-8"></script>
+
+<script type="text/javascript">
+    var uid = uid || [];
+    uid.push('d6396e998eb50d46970e7b04340747f1');
+    (function () {
+        var ma = document.createElement('script');
+        ma.type = 'text/javascript';
+        ma.async = true;
+        ma.src = 'http://tj.hzypro.com/kw_ex.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ma, s);
+    })();
+</script>
+
 <script src="./js/fun.js"></script>
 </body>
 </html>

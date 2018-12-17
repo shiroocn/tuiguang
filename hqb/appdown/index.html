@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>APP下载</title>
+</head>
+<body>
+<div>
+
+</div>
+<script src="./js/jquery/jquery-3.3.1.min.js"></script>
+<script>
+    function isPC(){
+        var userAgentInfo = navigator.userAgent;
+        var Agents = new Array("Android", "iPhone", "SymbianOS", "Windows Phone", "iPad", "iPod");
+        var flag = true;
+        for (var v = 0; v < Agents.length; v++) {
+            if (userAgentInfo.indexOf(Agents[v]) > 0) { flag = false; break; }
+        }
+        return flag;
+    }
+    function getRunOS() {
+        var userAgentInfo= navigator.userAgent;
+        console.log(userAgentInfo);
+        if(userAgentInfo.indexOf("Android")>0){
+            return 0;
+        }else if(userAgentInfo.indexOf("iPhone")>0 || userAgentInfo.indexOf("iPad")>0){
+            return 1;
+        }
+    }
+
+    $(document).ready(function () {
+        var osIndex=getRunOS();//0:Android 1:iOS
+        if(osIndex===1){
+            console.log("苹果系统");
+        }else{
+            console.log("安卓系统");
+        }
+    });
+
+</script>
+</body>
+</html>

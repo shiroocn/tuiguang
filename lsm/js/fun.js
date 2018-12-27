@@ -82,17 +82,17 @@ var userWXQR="./img/zjtx/cds_qr.jpg";
 var userPortrait="./img/zjtx/cds.jpg";
 var userPortraitBanner="./img/zjtx/cds_banner_old.png";*/
 
-/*var userName="孙盛宏";
+var userName="孙盛宏";
 var userWX="sl1018l";
 var userWXQR="./img/zjtx/ssh_qr.png";
 var userPortrait="./img/zjtx/ssh.jpg";
-var userPortraitBanner="./img/zjtx/ssh_banner_old.png";*/
+var userPortraitBanner="./img/zjtx/ssh_banner_old.png";
 
-var userName="赵炜";
+/*var userName="赵炜";
 var userWX="qwe188S";
 var userWXQR="./img/zjtx/zw_qr.jpg";
 var userPortrait="./img/zjtx/zw.jpg";
-var userPortraitBanner="./img/zjtx/zw_banner_old.png";
+var userPortraitBanner="./img/zjtx/zw_banner_old.png";*/
 
 //var userCopyright="版权所有:金创互动科技（深圳）有限公司";
 //var userCopyright="版权所有:韩城集升商贸有限公司";

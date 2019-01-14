@@ -4,11 +4,11 @@ var userWXQR="./img/zjtx/bm_qr.jpg";
 var userPortrait="./img/zjtx/bm.jpg";
 var userPortraitBanner="./img/zjtx/bm_banner_old.png";*/
 
-/*var userName="刘少明";
+var userName="刘少明";
 var userWX="MB168166";
 var userWXQR="./img/zjtx/lsm_qr.png";
 var userPortrait="./img/zjtx/lsm.jpg";
-var userPortraitBanner="./img/zjtx/lsm_banner_new.jpg";*/
+var userPortraitBanner="./img/zjtx/lsm_banner_new.jpg";
 
 /*var userName="陈鼎新";
 var userWX="chendingxin68";
@@ -34,15 +34,21 @@ var userWXQR="./img/zjtx/cdx1_qr.png";
 var userPortrait="./img/zjtx/cdx1.jpg";
 var userPortraitBanner="./img/zjtx/cdx1_banner_old.jpg";*/
 
-/*var userName="林智宏";
+/* var userName="林智宏";
 var userWX="cici111888cici";
 var userWXQR="./img/zjtx/lzh_qr.jpg";
 var userPortrait="./img/zjtx/lzh.jpg";
-var userPortraitBanner="./img/zjtx/lzh_banner_old.jpg";*/
+var userPortraitBanner="./img/zjtx/lzh_banner_old.png"; */
 
-/*var userName="温祝";
+/* var userName="温祝";
 var userWX="wenzhu076900";
 var userWXQR="./img/zjtx/wz_qr.jpg";
+var userPortrait="./img/zjtx/wz.jpg";
+var userPortraitBanner="./img/zjtx/wz_banner_old.png"; */
+
+/*var userName="温祝";
+var userWX="ft60432";
+var userWXQR="./img/zjtx/wz1_qr.jpg";
 var userPortrait="./img/zjtx/wz.jpg";
 var userPortraitBanner="./img/zjtx/wz_banner_old.png";*/
 
@@ -59,7 +65,7 @@ var userPortrait="./img/zjtx/cdx.jpg";
 var userPortraitBanner="./img/zjtx/cdx_banner_old.jpg";*/
 
 /*var userName="陈德明";
-var userWX="liuguohua28";同
+var userWX="liuguohua28";
 var userWXQR="./img/zjtx/cdm_qr.png";
 var userPortrait="./img/zjtx/cdm.jpg";
 var userPortraitBanner="./img/zjtx/cdm_banner_old.png";*/
@@ -82,11 +88,11 @@ var userWXQR="./img/zjtx/cds_qr.jpg";
 var userPortrait="./img/zjtx/cds.jpg";
 var userPortraitBanner="./img/zjtx/cds_banner_old.png";*/
 
-var userName="孙盛宏";
+/*var userName="孙盛宏";
 var userWX="sl1018l";
 var userWXQR="./img/zjtx/ssh_qr.png";
 var userPortrait="./img/zjtx/ssh.jpg";
-var userPortraitBanner="./img/zjtx/ssh_banner_old.png";
+var userPortraitBanner="./img/zjtx/ssh_banner_old.png";*/
 
 /*var userName="赵炜";
 var userWX="qwe188S";
@@ -95,8 +101,8 @@ var userPortrait="./img/zjtx/zw.jpg";
 var userPortraitBanner="./img/zjtx/zw_banner_old.png";*/
 
 //var userCopyright="版权所有:金创互动科技（深圳）有限公司";
-//var userCopyright="版权所有:韩城集升商贸有限公司";
-var userCopyright="版权所有:厦门小小雨点金融信息服务有限公司";
+var userCopyright="版权所有:韩城集升商贸有限公司";
+//var userCopyright="版权所有:厦门小小雨点金融信息服务有限公司";
 //var userCopyright="版权所有:陕西卓创信息科技有限公司";
 //var userCopyright="版权所有：深圳市美易互动科技有限公司";
 //var userCopyright="版权所有：北京经纬诚信投资公司";

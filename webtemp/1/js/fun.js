@@ -94,7 +94,8 @@ var userPortraitBanner="./img/zjtx/cds_banner_new.png";
 //var userCopyright="版权所有:陕西卓创信息科技有限公司";
 //var userCopyright="版权所有：深圳市美易互动科技有限公司";
 //var userCopyright="版权所有：北京经纬诚信投资公司";
-var userCopyright="版权所有：金石期货有限公司上海营业部";
+//var userCopyright="版权所有：金石期货有限公司上海营业部";
+var userCopyright="深圳君银证券投资咨询顾问有限公司河北分公司";
 
 function viewImg(obj) {
     console.log(obj.src);
